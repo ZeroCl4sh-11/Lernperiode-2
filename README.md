@@ -11,3 +11,4 @@ Heute habe ich mit C# ein Zahlratespiel programmiert. Ich habe gelernt, wie man 
 - [ ] Projekt planen und den Programmaufbau erstellen.
 - [ ] Grundgerüst in C# programmieren.
 - [ ] Erste Funktionen testen und Fehler beheben.
+      Ich habe das so geschrieben weil ich noch keine Ahnung habe was ich machen will.
