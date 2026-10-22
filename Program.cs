@@ -1,46 +1,9 @@
-﻿
-using System.ComponentModel.Design;
+﻿double einnahmen = 1000;
+double ausgaben = 350;
 
-Console.WriteLine("-------------------------------------");
-Console.WriteLine(" Welcome to the Number Guessing Game!");
-Console.WriteLine("-------------------------------------");
+double kontostand = einnahmen - ausgaben;
 
-
-Console.WriteLine(" Guess a number between 1 and 100");
-
-Random random = new Random();
-int numberToGuess = random.Next(1, 101);
-
-
-Console.WriteLine("Enter your guess: ");
-int tipp = Convert.ToInt32(Console.ReadLine());
-
-while (tipp != numberToGuess)
-{
-    if (tipp > numberToGuess)
-    {
-        Console.WriteLine("Go lower");
-    }
-    else if (tipp < numberToGuess)
-    {
-        Console.WriteLine("Go higher!");
-    }
-
-    Console.WriteLine("Enter your guess: ");
-    tipp = Convert.ToInt32(Console.ReadLine());
-}
-
-Console.WriteLine("Richtig!");
-
-
-
-
-
-
-
-
-
-
-
-
-
+Console.WriteLine("Einnahmen: " + einnahmen + " CHF");
+Console.WriteLine("Ausgaben: " + ausgaben + " CHF");
+Console.WriteLine("Kontostand: " + kontostand + " CHF");
+    
