@@ -27,5 +27,18 @@ Ich möchte mit C# ein Programm machen, mit dem man seine Einnahmen und Ausgaben
 - Monatsübersicht anzeigen
 - Ausgaben nach Kategorien sortieren
 - Daten speichern
+- Menu mit verschiedene möglichkeiten zum Auswählen
+**23.10.26**
+## Zusammenfassung heutiger Sitzung 
+Heute habe ich an meinem C#-Kontostandrechner gearbeitet. Ich habe ein Menü erstellt, in dem man Einnahmen und Ausgaben eingeben kann. Ausserdem habe ich gelernt, wie man Benutzereingaben speichert und mit double Kommazahlen berechnet. 
+<img width="127" height="251" alt="image" src="https://github.com/user-attachments/assets/aaa45189-5cc5-401a-85b8-ddf288f2d274" />
+
+## Für nächstes Mal
+Hausaufgabe
+- [ ] Eine while-Schleife einbauen damit das Menü nach jeder Auswahl wieder angezeigt wird und das Programm bei Auswahl 4 ganz beendet wird.
+## Arbeitspakete für nächstes Mal
+- [ ] Die Variablen für Einnahmen, Ausgaben und Kontostand so anpassen, dass die eingegebenen Werte gespeichert bleiben und bei Auswahl 2 angezeigt werden.
+- [ ] Bei Auswahl 3 die Einnahmen Ausgaben und den verbleibenden Kontostand übersichtlich ausgeben.
+- [ ] Prüfen ob die Benutzereingaben gültig sind Kommazahlen mit double ermöglichen und verschiedene Eingaben testen.
 
 
