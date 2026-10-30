@@ -1,16 +1,16 @@
 # Lernperiode-2
 **16.10.26**
-- [ ] Zahlratespiel erstellen
-- [ ]  Rate-Logik programmieren
+- [x] Zahlratespiel erstellen
+- [x]  Rate-Logik programmieren
 
 ## Zusammenfassung der heutigen Sitzung
 Heute habe ich mit C# ein Zahlratespiel programmiert. Ich habe gelernt, wie man eine zufällige Zahl erstellt und prüft, ob die geratene Zahl zu hoch oder zu tief ist. Mit einer while-Schleife kann man so lange raten bis die richtige Zahl gefunden wurde. Ich habe länger gebraucht als geplant, weil ich einige Fehler im Code beheben musste.
 
 ## Nächstes Mal
-- [ ] Projektidee auswählen und Funktionen festlegen.
-- [ ] Projekt planen und den Programmaufbau erstellen.
-- [ ] Grundgerüst in C# programmieren.
-- [ ] Erste Funktionen testen und Fehler beheben.
+- [x] Projektidee auswählen und Funktionen festlegen.
+- [x] Projekt planen und den Programmaufbau erstellen.
+- [x] Grundgerüst in C# programmieren.
+- [x] Erste Funktionen testen und Fehler beheben.
       Ich habe das so geschrieben weil ich noch keine Ahnung habe was ich machen will.
 
 
@@ -35,11 +35,11 @@ Heute habe ich an meinem C#-Kontostandrechner gearbeitet. Ich habe ein Menü ers
 
 ## Für nächstes Mal
 Hausaufgabe
-- [ ] Eine while-Schleife einbauen damit das Menü nach jeder Auswahl wieder angezeigt wird und das Programm bei Auswahl 4 ganz beendet wird.
+- [x] Eine while-Schleife einbauen damit das Menü nach jeder Auswahl wieder angezeigt wird und das Programm bei Auswahl 4 ganz beendet wird.
 ## Arbeitspakete für nächstes Mal
-- [ ] Die Variablen für Einnahmen, Ausgaben und Kontostand so anpassen, dass die eingegebenen Werte gespeichert bleiben und bei Auswahl 2 angezeigt werden.
-- [ ] Bei Auswahl 3 die Einnahmen Ausgaben und den verbleibenden Kontostand übersichtlich ausgeben( als Monatsansicht).
-- [ ] Prüfen ob die Benutzereingaben gültig sind Kommazahlen mit double ermöglichen und verschiedene Eingaben testen.
+- [x] Die Variablen für Einnahmen, Ausgaben und Kontostand so anpassen, dass die eingegebenen Werte gespeichert bleiben und bei Auswahl 2 angezeigt werden.
+- [x] Bei Auswahl 3 die Einnahmen Ausgaben und den verbleibenden Kontostand übersichtlich ausgeben( als Monatsansicht).
+- [x] Prüfen ob die Benutzereingaben gültig sind Kommazahlen mit double ermöglichen und verschiedene Eingaben testen.
 ## Zusammenfassung Hausaufgaben
 Ich habe einen Kontostandrechner in C# mit einem Menü und einem switch geschrieben. Als Hausaufgabe habe ich eine while-Schleife eingebaut. Dafür habe ich die Variable auswahl ganz oben mit 0 erstellt und das Menü und den switch in while (auswahl != 4) gesetzt. So erscheint das Menü nach jeder Auswahl wieder, und bei 4 wird das Programm beendet.
 
