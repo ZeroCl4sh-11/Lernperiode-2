@@ -40,7 +40,8 @@ Hausaufgabe
 - [ ] Die Variablen für Einnahmen, Ausgaben und Kontostand so anpassen, dass die eingegebenen Werte gespeichert bleiben und bei Auswahl 2 angezeigt werden.
 - [ ] Bei Auswahl 3 die Einnahmen Ausgaben und den verbleibenden Kontostand übersichtlich ausgeben( als Monatsansicht).
 - [ ] Prüfen ob die Benutzereingaben gültig sind Kommazahlen mit double ermöglichen und verschiedene Eingaben testen.
-Zusammenfassung Hausaufgaben
+## Zusammenfassung Hausaufgaben
 Ich habe einen Kontostandrechner in C# mit einem Menü und einem switch geschrieben. Als Hausaufgabe habe ich eine while-Schleife eingebaut. Dafür habe ich die Variable auswahl ganz oben mit 0 erstellt und das Menü und den switch in while (auswahl != 4) gesetzt. So erscheint das Menü nach jeder Auswahl wieder, und bei 4 wird das Programm beendet.
+
 
 
