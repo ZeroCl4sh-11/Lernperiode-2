@@ -45,3 +45,19 @@ Ich habe einen Kontostandrechner in C# mit einem Menü und einem switch geschrie
 
 
 
+
+**30.10.26**
+## Zusammenfasssung Heute
+Heute habe ich an meinem Kontostandrechner in C# gearbeitet. Ich habe mithilfe von Listen mehrere Einträge gespeichert und damit den Kontostand bei Option 2 und eine Monatsübersicht mit for-Schleife und if bei Option 3 programmiert. Ausserdem habe ich Fehlermeldungen behoben und angefangen, Benutzereingaben mit TryParse zu prüfen.
+
+## Nächstes mal 
+- [ ] Ich sollte anstatt so Monat 1 sollte ich so ändern auf Monat januar
+- [ ] TryParse bei Menü, Einnahme und Ausgabe einbauen und testen.
+- [ ] TryParse bei case 3 einbauen und verschiedene Eingaben testen.
+- [ ] for-Schleife und if üben und die Monatsübersicht erweitern.
+- [ ] Ausgabe verschönern mit Monatsnamen und zwei Kommastellen.
+      
+
+
+
+
