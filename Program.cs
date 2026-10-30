@@ -1,4 +1,9 @@
 ﻿int auswahl = 0;
+List<string> einnahmenNamen = new List<string>();
+List<double> einnahmenBeträge = new List<double>();
+List<string> ausgabenNamen = new List<string>();
+List<double> ausgabenBeträge = new List<double>();
+List<int> monate = new List<int>();
 
 while (auswahl != 4)
 {
@@ -16,40 +21,76 @@ while (auswahl != 4)
     switch (auswahl)
     {
         case 1:
-            string nameEinnahme;
-            string nameAusgabe;
-            int einnahme;
-            int ausgaben;
-            int result;
+            Console.WriteLine("Für welchen Monat? (1-12)");
+            int monat;
+            while (!int.TryParse(Console.ReadLine(), out monat) || monat < 1 || monat > 12)
+            {
+                Console.WriteLine("Ungültig! Bitte gib einen Monat von 1 bis 12 ein:");
+            }
+            monate.Add(monat);
+
             Console.WriteLine("Wie heisst deine Einnahme?");
-            nameEinnahme = Console.ReadLine();
+            string nameEinnahme = Console.ReadLine();
+            einnahmenNamen.Add(nameEinnahme);
 
             Console.WriteLine("Wie hoch ist deine Einnahme?");
-            einnahme = (int)Convert.ToDouble(Console.ReadLine());
+            double einnahme = Convert.ToDouble(Console.ReadLine());
+            einnahmenBeträge.Add(einnahme);
 
             Console.WriteLine("Wie heisst deine Ausgabe?");
-            nameAusgabe = Console.ReadLine();
+            string nameAusgabe = Console.ReadLine();
+            ausgabenNamen.Add(nameAusgabe);
 
             Console.WriteLine("Wie hoch ist deine Ausgabe?");
-            ausgaben = (int)Convert.ToDouble(Console.ReadLine());
+            double ausgabe = Convert.ToDouble(Console.ReadLine());
+            ausgabenBeträge.Add(ausgabe);
 
-            result = einnahme - ausgaben;
-
-            Console.WriteLine("Deine Einnahme: " + nameEinnahme
-                + " - " + einnahme + " CHF");
-
-            Console.WriteLine("Deine Ausgabe: " + nameAusgabe
-                + " - " + ausgaben + " CHF");
-
-            Console.WriteLine("Dein Kontostand: " + result + " CHF");
+            Console.WriteLine("Gespeichert!");
             break;
 
         case 2:
             Console.WriteLine("Kontostand anzeigen");
+
+
+            double summeeinnahmen = einnahmenBeträge.Sum();
+            double summeaussgaben = ausgabenBeträge.Sum();
+            double Kontostand = summeeinnahmen - summeaussgaben;
+            Console.WriteLine(Kontostand + " CHF");            
             break;
 
         case 3:
-            Console.WriteLine("Monatsübersicht anzeigen");
+            Console.WriteLine("Welchen Monat willst du sehen? (1-12)");
+            int gewähltermonat = Convert.ToInt32(Console.ReadLine());
+
+            double einnahmenMonat = 0;
+            double ausgabenMonat = 0;
+
+            Console.WriteLine("===== MONATSÜBERSICHT: Monat " + gewähltermonat + " =====");
+
+            Console.WriteLine("Einnahmen:");
+            for (int i = 0; i < einnahmenNamen.Count; i++)
+            {
+                if (monate[i] == gewähltermonat)
+                {
+                    Console.WriteLine("  + " + einnahmenNamen[i] + ": " + einnahmenBeträge[i] + " CHF");
+                    einnahmenMonat = einnahmenMonat + einnahmenBeträge[i];
+                }
+            }
+
+            Console.WriteLine("Ausgaben:");
+            for (int i = 0; i < ausgabenNamen.Count; i++)
+            {
+                if (monate[i] == gewähltermonat)
+                {
+                    Console.WriteLine("  - " + ausgabenNamen[i] + ": " + ausgabenBeträge[i] + " CHF");
+                    ausgabenMonat = ausgabenMonat + ausgabenBeträge[i];
+                }
+            }
+
+            Console.WriteLine("------------------------------");
+            Console.WriteLine("Total Einnahmen: " + einnahmenMonat + " CHF");
+            Console.WriteLine("Total Ausgaben:  " + ausgabenMonat + " CHF");
+            Console.WriteLine("Kontostand:      " + (einnahmenMonat - ausgabenMonat) + " CHF");
             break;
 
         case 4:
