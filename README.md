@@ -56,8 +56,17 @@ Heute habe ich an meinem Kontostandrechner in C# gearbeitet. Ich habe mithilfe v
 - [ ] TryParse bei case 3 einbauen und verschiedene Eingaben testen.
 - [ ] for-Schleife und if üben und die Monatsübersicht erweitern.
 - [ ] Ausgabe verschönern mit Monatsnamen und zwei Kommastellen.
+
+**06.11.2026**
+## Zusammenfassung Heute
+In dieser Sitzung habe ich an meinem Kontostandrechner in C# gearbeitet. Zuerst habe ich mit einem Array den Monatsnamen statt der Zahl angezeigt. Weil Arrays bei 0 anfangen, musste ich [monat -1] schreiben.
+Danach wurden die restlichen Aufträge umgesetzt. Alle Eingaben verwenden jetzt TryParse statt Convert, damit das Programm bei falschen Eingaben nicht abstürzt. Die Monatsübersicht zeigt jetzt an, wenn es keine Einträge gibt, nennt die grösste Ausgabe und warnt bei einem negativen Kontostand. Beträge werden mit ToString("F2") immer mit zwei Kommastellen angezeigt.
       
-
-
-
+## Kennelernen
+- [ ] Ich will Methoden kennenlernen
+## Nächstes mal
+- [ ] Eine TryParse-Schleife löschen und ohne Hilfe neu schreiben.
+- [ ] Einnahme und Ausgabe in zwei getrennte Menüpunkte aufteilen.
+- [ ] Jahresübersicht mit allen 12 Monaten als neuen Menüpunkt einbauen.
+- [ ] Methoden lernen und die TryParse-Schleifen in eine Methode auslagern.
 
