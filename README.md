@@ -70,3 +70,18 @@ Danach wurden die restlichen Aufträge umgesetzt. Alle Eingaben verwenden jetzt 
 - [ ] Jahresübersicht mit allen 12 Monaten als neuen Menüpunkt einbauen.
 - [ ] Methoden lernen und die TryParse-Schleifen in eine Methode auslagern.
 
+## Zusammenfassung Heute
+# Cisco Networking Basics – Module 2 bis 4
+
+Ich habe heute an Cisco Networking Basics Cybersecurity ich habe mich sehr gut konzentrieren können und bin sehr weit gekommen ich habe 3 Module absolviert und ich habe gelernt wie man ein Heim Netzwerk einrichtet und habe den Text gemacht.
+Schwierigkeiten hatte ich mit Kabel und DSL Verbidnungen
+
+## Diese Arbeitspakete habe ich nicht gemacht die werde ich nächstes mal machen
+## Nächstes mal
+
+- [ ] Eine TryParse-Schleife löschen und ohne Hilfe neu schreiben.
+- [ ] Einnahme und Ausgabe in zwei getrennte Menüpunkte aufteilen.
+- [ ] Jahresübersicht mit allen 12 Monaten als neuen Menüpunkt einbauen.
+- [ ] Methoden lernen und die TryParse-Schleifen in eine Methode auslagern.
+
+
