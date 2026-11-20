@@ -154,6 +154,16 @@ Wenn jemand ein ; im Namen eingibt, geht die Zeile kaputt. Deshalb ersetze ich
 
 ### Nächstes Mal
 - [ ] Einnahme und Ausgabe in zwei getrennte Menüpunkte aufteilen
-- [ ] Methoden lernen
+- [x] Methoden lernen
 - [ ] Ausgaben nach Kategorien sortieren
 - [ ] Eine TryParse-Schleife löschen und ohne Hilfe neu schreiben
+
+*20.11.2026*
+## Heute
+
+Heute habe ich mich an ein neues Ziel gewendet ich möchte jede Woche so kleine Mini Projekte machen damit ich mehr lerne das was wir lernen und anzuwenden und damit ich auch Ende Jahr eine Grosse Sammlung an Projekten habe.Die READMe habe ich auf einem Separaten Reposotiry .ICh habe mich noch mit Methoden befasst ich habe ein Youtube Video geschaut : https://www.youtube.com/watch?v=IPpEefuFiVM
+
+- [ ] Ausgaben nach Kategorien sortieren
+- [ ] Eine TryParse-Schleife löschen und ohne Hilfe neu schreiben
+- [ ] Einnahme und Ausgabe in zwei getrennte Menüpunkte aufteilen
+- [ ] Mein Mini Projekt fertig machen
