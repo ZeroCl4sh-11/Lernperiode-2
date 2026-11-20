@@ -112,7 +112,7 @@ Diese Arbeitspakete habe ich heute nicht gemacht. Ich mache sie nächstes Mal:
 - [ ] Ausgaben nach Kategorien sortieren
 - [ ] Eine TryParse-Schleife löschen und ohne Hilfe neu schreiben
 ## Hausaufgaben
-- [ ] Daten speichern (in einer Datei)
+- [x] Daten speichern (in einer Datei)
 
 ## *20.11.2026*  Daten in einer Datei speichern
 
